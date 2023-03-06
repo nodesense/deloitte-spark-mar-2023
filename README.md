@@ -7,7 +7,8 @@ https://demo.firepad.io/#d1hHixAQBY
 
 # Reference Repos
 
-Scala  https://github.com/nodesense/scala-workshop
+Scala Part 
+Scala Full https://github.com/nodesense/scala-workshop
 
-Spark Starter  https://github.com/nodesense/tesco-spark-scala-june-2021
+Spark Starter https://github.com/nodesense/tesco-spark-july-2021
 
