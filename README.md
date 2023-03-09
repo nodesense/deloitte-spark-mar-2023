@@ -44,6 +44,26 @@ copy paste below config and save file
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64 
 
+## Spark Executors
+
+```
+spark.conf.set("spark.executor.instances", 4)
+spark.conf.set("spark.executor.cores", 4)
+```
+
+In above case maximum 16 tasks will be executed at any given time.
+
+other option is dynamic allocation of executors as below -
+
+```
+spark.conf.set("spark.dynamicAllocation.enabled", "true")
+spark.conf.set("spark.executor.cores", 4)
+spark.conf.set("spark.dynamicAllocation.minExecutors","1")
+spark.conf.set("spark.dynamicAllocation.maxExecutors","5")
+```
+This was you can let spark decide on allocating number of executors based on processing and memory requirements for running job.
+
+
 
 export SPARK_HOME=/opt/spark-3.0.3-bin-hadoop3.2
 export PATH=$PATH:$SPARK_HOME/bin
