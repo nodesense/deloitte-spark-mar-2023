@@ -78,6 +78,14 @@ Press Enter
 
 Press Ctrl  + X   to exit
 
+# EMR Socks Proxy
+
+https://github.com/nodesense/cts-data-engineering-feb-2022/blob/39f0fcfce11e89ef7321465a9aa2707ce1fc5095/notes/050-emr-socks-proxy.md
+
+https://github.com/nodesense/cts-data-engineering-feb-2022/tree/7b0ad3f32098a255a3e39844b9d0d1b0075e6323/emr
+
+
+
 
 
 
